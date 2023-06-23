@@ -1,0 +1,22 @@
+{
+  "name": "intellicrop_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "rm -rf dist && parcel src/index.html"
+  },
+  "author": "davidjan3",
+  "license": "ISC",
+  "dependencies": {
+    "intellicrop": "^0.1.1",
+    "parcel": "^2.9.2"
+  },
+  "devDependencies": {
+    "crypto-browserify": "^3.12.0",
+    "events": "^3.3.0",
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.10",
+    "stream-browserify": "^3.0.0"
+  }
+}
